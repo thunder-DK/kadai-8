@@ -60,52 +60,53 @@
                             echo '<p>' .$k_image_detail. '</p>';
                         echo '</div>';
                         
-                        if(!empty($subtitle1)){
-                            echo '<div id="contents_description1">';
-                                echo '<h3>' .$subtitle1. '</h3>';
-                                echo '<p>' .$subtitle1_detail. '</p>';
-                                echo '<img src="' .$subtitle1_image_path. '">';
-                            echo '</div>';
-                        }
+                        echo '<div id="contents_showarea">';
                         
-                        if(!empty($subtitle2)){
-                            echo '<div id="contents_description2">';
-                                echo '<h3>' .$subtitle2. '</h3>';
-                                echo '<p>' .$subtitle2_detail. '</p>';
-                                echo '<img src="' .$subtitle2_image_path. '">';
-                            echo '</div>';
-                        }
+                            if(!empty($subtitle1)){
+                                echo '<div id="contents_description1">';
+                                    echo '<h3>' .$subtitle1. '</h3>';
+                                    echo '<p>' .$subtitle1_detail. '</p>';
+                                    echo '<img src="' .$subtitle1_image_path. '">';
+                                echo '</div>';
+                            }
 
-                        if(!empty($subtitle3)){
-                            echo '<div id="contents_description3">';
-                                echo '<h3>' .$subtitle3. '</h3>';
-                                echo '<p>' .$subtitle3_detail. '</p>';
-                                echo '<img src="' .$subtitle3_image_path. '">';
-                            echo '</div>';
-                        }
+                            if(!empty($subtitle2)){
+                                echo '<div id="contents_description2">';
+                                    echo '<h3>' .$subtitle2. '</h3>';
+                                    echo '<p>' .$subtitle2_detail. '</p>';
+                                    echo '<img src="' .$subtitle2_image_path. '">';
+                                echo '</div>';
+                            }
 
-                            
-                        if(!empty($subtitle4)){
-                            echo '<div id="contents_description4">';
-                                echo '<h3>' .$subtitle4. '</h3>';
-                                echo '<p>' .$subtitle4_detail. '</p>';
-                                echo '<img src="' .$subtitle4_image_path. '">';
-                            echo '</div>';
-                        }
-                        
-                        if(!empty($subtitle5)){
-                            echo '<div id="contents_description5">';
-                                echo '<h3>' .$subtitle5. '</h3>';
-                                echo '<p>' .$subtitle5_detail. '</p>';
-                                echo '<img src="' .$subtitle5_image_path. '">';
-                            echo '</div>';
-                        }
+                            if(!empty($subtitle3)){
+                                echo '<div id="contents_description3">';
+                                    echo '<h3>' .$subtitle3. '</h3>';
+                                    echo '<p>' .$subtitle3_detail. '</p>';
+                                    echo '<img src="' .$subtitle3_image_path. '">';
+                                echo '</div>';
+                            }
+
+
+                            if(!empty($subtitle4)){
+                                echo '<div id="contents_description4">';
+                                    echo '<h3>' .$subtitle4. '</h3>';
+                                    echo '<p>' .$subtitle4_detail. '</p>';
+                                    echo '<img src="' .$subtitle4_image_path. '">';
+                                echo '</div>';
+                            }
+
+                            if(!empty($subtitle5)){
+                                echo '<div id="contents_description5">';
+                                    echo '<h3>' .$subtitle5. '</h3>';
+                                    echo '<p>' .$subtitle5_detail. '</p>';
+                                    echo '<img src="' .$subtitle5_image_path. '">';
+                                echo '</div>';
+                            }
+                        echo '</div>';
                     }
                 ?>
-                <?php include "footer.php" ?>
-
             </div>
-            
+            <?php include "footer.php" ?>
         </div>
 
     </body>

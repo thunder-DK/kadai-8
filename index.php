@@ -28,15 +28,28 @@
         <script type="text/javascript" src="./js/masonry.pkgd.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
-
+        
         <?php include "sidemenu.php" ?>
         
         <div id="container">
             
+            <ul class="register">
+                <li><a href="admin/logout.php">ログアウト</a></li>
+                <li><a href="admin/login.php">ログイン</a></li>
+                <li><a href="">会員登録</a></li>
+            </ul>
+
             <div id="keyvisual">
                 <img src="./images/keyvisual01.jpg">
-            
             </div>
+            <div style="position:absolute; top:180px; left:350px; width: 900px; font-size:30px; color: grey;">
+                毎日の仕事が楽しくなる<br>
+                日々の業務に使えるネタがつまった記事を取り扱っております
+            </div>
+
+            <h3 id="toplabel">
+                最新の投稿記事はこちら
+            </h3>
             
             <div id = "firstview_top">
                 <div class="row" id="masonry">
@@ -67,9 +80,9 @@
                         }
                     ?>
                     
-                </div>
-                <?php include "footer.php" ?>
+                </div>                
             </div>
+            <?php include "footer.php" ?>
         </div>
         
         <!--
