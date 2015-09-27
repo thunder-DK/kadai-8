@@ -17,7 +17,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>XXXXXXX</title>
+        <title>ビジネス向けの記事を紹介しています</title>
 
         <!-- Bootstrap -->
         <link href="./css/bootstrap.min.css" rel="stylesheet">
@@ -67,12 +67,12 @@
                             $image_path = $row["top_image_path"];
                             $image_title = $row["contents_title"];
 
-                            echo '<div class="col-lg-4 col-md-4 col-sm-3 col-xs-1">';
+                            echo '<div class="col-lg-4 col-md-3 col-sm-3 col-xs-1">';
                                 echo '<div class="panel">';
                                     echo '<div class="panel-body">';
                                         echo "<a href='contents_detail.php?id=$contents_id'>";
-                                        echo '<img src="' .$image_path. '">';
-                                        echo '<p align="center">' .$image_title. '</p>';
+                                        echo '<img src="' .$image_path. '" id="image">';
+                                        echo '<p id="img_title" align="center">' .$image_title. '</p>';
                                         echo "</a>";
                                     echo '</div>';
                                 echo '</div>';

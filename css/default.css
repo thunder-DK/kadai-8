@@ -134,36 +134,6 @@ h2{
     text-align: center;
 }
 
-.kagu-image li{
-    float: left;
-    list-style-type: none;
-    display: inline;
-}
-
-.kagu-image li img{
-    width: 240px;
-    height: 180px;
-    margin: 5px;
-}
-
-.kagu-image li:hover{
-    filter: alpha(opacity=60);
-    opacity: 0.6;
-    content:Click!;
-}
-
-.kagu-detail{
-    margin: auto;
-    float: left;
-    zoom: 150%;
-}
-
-.spec-info{
-    width: 250px;
-    float: right;
-    margin: auto;
-}
-
 .hyouji-area{
     width: 960px;
     margin: 0 auto;
@@ -196,4 +166,24 @@ h2{
     text-align: center;
     margin: 0 auto;
     margin-left: 50%;
+}
+
+#cont_show{
+    width: 960px;
+    margin-top: 50px
+}
+
+#input-article{
+    width: 960px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+#input-news{
+    width: 960px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
 }

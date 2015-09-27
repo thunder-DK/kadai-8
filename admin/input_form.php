@@ -5,8 +5,16 @@
     </head>
     <body>
         <div id="container1">
-                <input type="image" src="../images/btn-input_article.png" value="記事投稿" id="submit-input" name="next-b"/></td>
-                <input type="image" src="../images/btn-input_news.png" value="ニュース投稿" id="submit-cancel" name="cancel-b"></td>
+            <p style="float:right;"><a href="login.php">元に戻る</a></p>
+
+            <div id="cont_show">
+                <form action="input_article.php">
+                    <input type="image" src="../images/btn-input_article.png" value="記事投稿" id="input-article" name="input-article"/>
+                </form>
+                <form action="news_list.php">
+                    <input type="image" src="../images/btn-input_news.png" value="ニュース投稿" id="input-news" name="input-news">
+                </form>
+            </div>
         </div>
     </body>
 </html>

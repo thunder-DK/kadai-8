@@ -41,7 +41,7 @@
     <body>
         <div id="container1">
             
-            <div class="company-name" align="center" style="border-style:solid; border-width: 3px; padding:2px; width:400px"><a href="../index.php">furniture Company ECショップ</a>
+            <div class="company-name" align="center" style="border-style:solid; border-width: 3px; padding:2px; width:250px"><a href="../index.php">K-NEWs</a>
             </div>
        
             <div id="inputform">

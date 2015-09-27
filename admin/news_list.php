@@ -8,7 +8,8 @@
     
     <body>
         <div id="container1">
-            <div class="company-name1" align="center" style="border-style:solid; border-width: 3px; padding:2px; width:400px"><a href="../index.php">furniture Company ECショップ</a></div>
+            <div class="company-name1" align="center" style="border-style:solid; border-width: 3px; padding:2px; width:250px"><a href="../index.php">K-NEWs</a></div>
+            <p style="float:right;"><a href="input_form.php">元に戻る</a></p>
             
             <?php
                 $pdo = new PDO("mysql:host=localhost;dbname=cs_academy;charset=utf8", "root", "");

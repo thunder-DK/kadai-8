@@ -49,7 +49,7 @@
                             $admin_fl = $row["admin_flg"];
                             
                             if($admin_fl == "1"){
-                                header("Location: news_list.php");
+                                header("Location: input_form.php");
                             }
                             elseif($admin_fl == "0"){
                                 session_start();
