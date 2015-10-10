@@ -22,6 +22,33 @@
         <!-- Bootstrap -->
         <link href="./css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
+        <script type="text/javascript" src="./js/jquery-1.2.6.min.js"></script>
+        
+        <!--
+        <script type="text/javascript">
+            function slideSwitch() {
+               var $active = $('#slideshow img.active');
+
+               if ( $active.length == 0 ) $active = $('#slideshow img:last');
+
+               var $next =  $active.next().length ? $active.next()
+                  : $('#slideshow img:first');
+
+               $active.addClass('last-active');
+
+               $next.css({opacity: 0.0})
+                  .addClass('active')
+                  .animate({opacity: 1.0}, 1000, function() {
+                       $active.removeClass('active last-active');
+                  });
+            }
+
+            $(function() {
+               setInterval( "slideSwitch()", 3000 );
+            });
+        </script>
+        -->
+
     </head>
 
     <body>
@@ -42,7 +69,16 @@
             <div id="keyvisual">
                 <img src="./images/keyvisual01.jpg">
             </div>
-            <div style="position:absolute; top:180px; left:350px; width: 900px; font-size:30px; color: grey;">
+            
+            <!--
+            <div id="slideshow">
+                <img src="./images/keyvisual01.jpg" alt="" class="active" />
+                <img src="./images/keyvisual02.jpg" alt="" />
+                <img src="./images/keyvisual03.jpg" alt="" />
+            </div>
+            -->
+    
+            <div style="position:absolute; top:160px; left:80px; width: 80%; font-size:28px; color: grey;">
                 毎日の仕事が楽しくなる<br>
                 日々の業務に使えるネタがつまった記事を取り扱っております
             </div>
@@ -67,7 +103,7 @@
                             $image_path = $row["top_image_path"];
                             $image_title = $row["contents_title"];
 
-                            echo '<div class="col-lg-4 col-md-3 col-sm-3 col-xs-1">';
+                            echo '<div class="col-lg-4 col-sm-3 col-xs-1">';
                                 echo '<div class="panel">';
                                     echo '<div class="panel-body">';
                                         echo "<a href='contents_detail.php?id=$contents_id'>";

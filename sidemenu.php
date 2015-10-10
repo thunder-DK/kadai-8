@@ -10,11 +10,13 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <div id="sidemenu">
-            <div id="side_top">
-                <a href="index.php"><img src="images/btn-k_top.png"></a>
+            
+            <div id="side_topimage">
+                <a href="index.php"><img src="images/btn-k_top.png" style="margin-top: 20px;"></a>
             </div>    
             
             <div id="side_menubar">
@@ -26,7 +28,7 @@
                             $category_show = $row["show_flg"];
 
                             if($category_show == 1){
-                                echo "<li><a href='category.php?id=$category_id'>" .$category_name. "</a></li>";
+                                print "<li><a href='category.php?id=$category_id'>" .$category_name. "</a></li>";
                             }
                         }
                     ?>

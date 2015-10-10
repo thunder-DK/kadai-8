@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
+        <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <div id="footer">
@@ -11,10 +12,8 @@
                     <li>個人情報の取り扱いについて</li>
                     <li>問題のある投稿を報告</li>
                 </ul>
-            </div>
-            
-            <div id="footer_companyname">
-                <p>copyright. k-news corporation inc.</p>
+                
+                <p id="footer_companyname">copyright. k-news corporation inc.</p>
             </div>            
         </div>
 

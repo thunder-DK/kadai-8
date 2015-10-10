@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+body{
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","ヒラギノ角ゴ Pro","Hiragino Kaku Gothic Pro",
+                        "HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS P Gothic",sans-serif;
+}
+
 /*
 .html{
     font-family: sans-serif, serif, monospace;
